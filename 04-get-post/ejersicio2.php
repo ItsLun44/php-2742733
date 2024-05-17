@@ -11,8 +11,10 @@
     <form action="calcular_salario.php" method="post">
         <label for="horas">Horas Trabajadas en el Mes:</label><br>
         <input type="number" id="horas" name="horas" required><br>
+
         <label for="valor">Valor de la Hora:</label><br>
         <input type="number" id="valor" name="valor" required><br><br>
+        
         <button type="submit">Calcular</button>
     </form>
 
@@ -26,11 +28,11 @@ $horas = $_POST['horas'];
 $valor = $_POST['valor'];
 $resultado = $horas * $valor;
 
-echo $horas * $valor;
-
 if ($resultado >= 2200000){
     echo "hay retencion de fuente";
-} else {
+} 
+
+else if ($resultado < 2200000){
     echo "no hay retencion de fuente";
 }
 
