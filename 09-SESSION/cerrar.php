@@ -1,8 +1,9 @@
 <?php
+
 session_start();
 session_destroy();
-?>
 
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -11,10 +12,8 @@ session_destroy();
     <title>Document</title>
 </head>
 <body>
-
-    <h1>SESION FINALIZADA</h1>
-    <a href="./user.php">User page</a>
-    <a href="./index.php">iniciar sesion</a>
-    
+    <h1>Sesión finalizada</h1>
+    <a href="./user.php">User Page</a>
+    <a href="./index.php">Iniciar sesión</a>
 </body>
 </html>
