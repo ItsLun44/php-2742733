@@ -1,0 +1,59 @@
+body{
+    background-image: url(./imagenes/fondo_inicio.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.contenedor_todo{
+    width: 23rem;
+    height: 26rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 50px;
+    background-color: rgba(0, 0, 0, 0.581);
+    color: white;
+    text-decoration: none;
+    box-shadow: black 0px 10px 10px;
+    margin-top: 3rem;
+}
+
+.contenedor_todo form{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.style_user{
+    border-radius: 10rem;
+    height: 30px;
+}
+
+.style_password{
+    border-radius: 10rem;
+    height: 30px;
+}
+
+.style_inicio{
+    margin-left: 0.7rem;
+    width: 10rem;
+    height: 3rem;
+    border-radius: 50px;
+}
+
+.registrate_style{
+    margin-top: 1rem;
+}
+
+.contenedor_todo a{
+    color: white;
+    text-decoration: none;
+}
+
+.contenedor_todo_todo{
+    position: absolute;
+    width: max-content;
+    height: 50rem;
+    right: 10rem;
+    background-color: rgba(0, 255, 255, 0);
+}
