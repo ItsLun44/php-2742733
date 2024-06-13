@@ -64,7 +64,7 @@ if ($_SERVER["REQUEST_METHOD"] == 'POST') {
 
     <div class="contenedor_todo_todo">
         <div class="contenedor_todo">
-            <h1>Pagina inicio</h1>
+            <h1 class="inicio_style">Pagina inicio</h1>
 
             <form action="index.php" method="POST">
                 <label for="user">Usuario</label>

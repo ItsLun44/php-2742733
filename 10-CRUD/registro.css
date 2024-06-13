@@ -1,0 +1,93 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.contenedor_todo{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    z-index: 2;
+    width: 30rem;
+    height: 17rem;
+    border-radius: 50px;
+    background-color: rgba(0, 0, 0, 0.581);
+    color: white;
+    text-decoration: none;
+    box-shadow: black 0px 5px 10px;
+    margin-top: 3rem;
+}
+
+.inicio_style{
+    position: relative;
+    top: 1.5rem;
+    left: 3rem;
+}
+
+.contenedor_todo form{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.usuario_label{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-left: 3rem;
+    margin-top: 3rem;
+}
+
+.style_botones{
+    display: flex;
+    flex-direction: column;
+}
+
+.style_user{
+    border-radius: 10rem;
+    height: 30px;
+    width: 200px;
+}
+
+.password_label{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-left: 3rem;
+}
+
+.style_password{
+    border-radius: 10rem;
+    height: 30px;
+    width: 200px;
+}
+
+.style_inicio{
+    position: relative;
+    margin-left: 16rem;
+    left: 1.5rem;
+    bottom: 11rem;
+    width: 10rem;
+    height: 3rem;
+    border-radius: 50px;
+}
+
+.registrate_style{
+    position: relative;
+    left: 19.5rem;
+    bottom: 10rem;
+}
+
+.contenedor_todo a{
+    color: white;
+    text-decoration: none;
+}
+
+.contenedor_todo_todo{
+    position: absolute;
+    width: max-content;
+    height: 50rem;
+    right: 5rem;
+    background-color: rgba(0, 255, 255, 0);
+}
